@@ -8,5 +8,6 @@ Reference material plugin for the website management system.
 
 ## Compatibility
 
+* Established for use with the [antibrand system](https://github.com/antibrand/system) but may be compatible with similar systems.
 * This plugin was written on a local server running PHP 7.3
 * The short array syntax ( `[]` rather than `array()` ) requires PHP 5.4+
