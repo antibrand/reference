@@ -79,6 +79,9 @@ final class Init {
 		// Reference settings class.
 		require_once ABREF_PATH . 'includes/class-settings.php';
 
+		// Post types class.
+		require_once ABREF_PATH . 'includes/class-post-types.php';
+
 		// Admin/backend functionality, scripts and styles.
 		require_once ABREF_PATH . 'admin/class-admin.php';
 

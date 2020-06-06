@@ -33,7 +33,7 @@
  *    and the package name in file headers.
  *
  * 2. Text domain
- *    Find antibrand and replace with the new name of your
+ *    Find reference and replace with the new name of your
  *    primary plugin file (this file).
  *
  * 3. Constants prefix
@@ -134,7 +134,7 @@ if ( ! class_exists( 'Reference' ) ) :
 			 * @return string Returns the text domain of the plugin.
 			 */
 			if ( ! defined( 'ABREF_DOMAIN' ) ) {
-				define( 'ABREF_DOMAIN', 'antibrand' );
+				define( 'ABREF_DOMAIN', 'reference' );
 			}
 
 			/**
@@ -165,14 +165,14 @@ if ( ! class_exists( 'Reference' ) ) :
 			 * This URL slug is used for various plugin admin & settings pages.
 			 *
 			 * The prefix will change in your search & replace in renaming the plugin.
-			 * Change the second part of the define(), here as 'antibrand',
+			 * Change the second part of the define(), here as 'reference',
 			 * to your preferred page slug.
 			 *
 			 * @since  1.0.0
 			 * @return string Returns the URL slug of the admin pages.
 			 */
 			if ( ! defined( 'ABREF_ADMIN_SLUG' ) ) {
-				define( 'ABREF_ADMIN_SLUG', 'antibrand' );
+				define( 'ABREF_ADMIN_SLUG', 'reference' );
 			}
 
 		}
@@ -187,7 +187,7 @@ if ( ! class_exists( 'Reference' ) ) :
 		public function __clone() {
 
 			// Cloning instances of the class is forbidden.
-			_doing_it_wrong( __FUNCTION__, __( 'This is not allowed.', 'antibrand' ), '1.0.0' );
+			_doing_it_wrong( __FUNCTION__, __( 'This is not allowed.', 'reference' ), '1.0.0' );
 
 		}
 
@@ -201,7 +201,7 @@ if ( ! class_exists( 'Reference' ) ) :
 		public function __wakeup() {
 
 			// Unserializing instances of the class is forbidden.
-			_doing_it_wrong( __FUNCTION__, __( 'This is not allowed.', 'antibrand' ), '1.0.0' );
+			_doing_it_wrong( __FUNCTION__, __( 'This is not allowed.', 'reference' ), '1.0.0' );
 
 		}
 
