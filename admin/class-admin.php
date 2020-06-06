@@ -1,13 +1,13 @@
 <?php
 /**
  * Admin functiontionality and pages
- * @package    Plugin
+ * @package    Reference
  * @subpackage Admin
  *
  * @since      1.0.0
  */
 
-namespace Plugin\Admin;
+namespace Reference\Admin;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -76,11 +76,11 @@ class Admin {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_admin() {
+function abref_admin() {
 
 	return Admin::instance();
 
 }
 
 // Run an instance of the class.
-abp_admin();
+abref_admin();

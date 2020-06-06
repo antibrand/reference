@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin activation class.
+ * Reference activation class.
  *
  * This file must not be namespaced.
  *
- * @package    Plugin
+ * @package    Reference
  * @subpackage Includes
  *
  * @since      1.0.0
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Plugin activation class.
+ * Reference activation class.
  *
  * @since  1.0.0
  * @access public
@@ -78,7 +78,7 @@ class Antibrand_Activate {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_activate() {
+function abref_activate() {
 
 	return Antibrand_Activate::instance();
 

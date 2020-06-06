@@ -2,7 +2,7 @@
 /**
  * Fired when the plugin is uninstalled
  *
- * @package    Plugin
+ * @package    Reference
  *
  * @since      1.0.0
  */

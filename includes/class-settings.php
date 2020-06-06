@@ -2,13 +2,13 @@
 /**
  * The core settings class for the plugin
  *
- * @package    Plugin
+ * @package    Reference
  * @subpackage Includes
  *
  * @since      1.0.0
  */
 
-namespace Plugin\Includes;
+namespace Reference\Includes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -77,11 +77,11 @@ class Settings {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_settings() {
+function abref_settings() {
 
 	return Settings::instance();
 
 }
 
 // Run an instance of the class.
-abp_settings();
+abref_settings();

@@ -2,13 +2,13 @@
 /**
  * The core plugin class
  *
- * @package    Plugin
+ * @package    Reference
  * @subpackage Includes
  *
  * @since      1.0.0
  */
 
-namespace Plugin\Includes;
+namespace Reference\Includes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -76,17 +76,17 @@ final class Init {
 	 */
 	private function dependencies() {
 
-		// Plugin settings class.
-		require_once ABP_PATH . 'includes/class-settings.php';
+		// Reference settings class.
+		require_once ABREF_PATH . 'includes/class-settings.php';
 
 		// Admin/backend functionality, scripts and styles.
-		require_once ABP_PATH . 'admin/class-admin.php';
+		require_once ABREF_PATH . 'admin/class-admin.php';
 
 		// Frontend functionality, scripts and styles.
-		require_once ABP_PATH . 'frontend/class-frontend.php';
+		require_once ABREF_PATH . 'frontend/class-frontend.php';
 
 		// Translation functionality.
-		require_once ABP_PATH . 'includes/class-i18n.php';
+		require_once ABREF_PATH . 'includes/class-i18n.php';
 
 	}
 
@@ -112,11 +112,11 @@ final class Init {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_init() {
+function abref_init() {
 
 	return Init::instance();
 
 }
 
 // Run an instance of the class.
-abp_init();
+abref_init();

@@ -2,13 +2,13 @@
 /**
  * Define the internationalization functionality.
  *
- * @package    Plugin
+ * @package    Reference
  * @subpackage Includes
  *
  * @since      1.0.0
  */
 
-namespace Plugin\Includes;
+namespace Reference\Includes;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -89,11 +89,11 @@ class i18n {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_i18n() {
+function abref_i18n() {
 
 	return i18n::instance();
 
 }
 
 // Run an instance of the class.
-abp_i18n();
+abref_i18n();

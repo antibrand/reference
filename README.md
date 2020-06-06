@@ -1,14 +1,10 @@
-# plugin
+# reference
 
-A basic starter plugin for your website management system. This included as a default the in the [antibrand system](https://github.com/antibrand/system).
+Reference material plugin for the website management system.
 
 ![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-ffd000.svg?style=flat-square)
 ![PHP tested on version 7.3](https://img.shields.io/badge/PHP-tested%207.3-8892bf.svg?style=flat-square)
-![cover image](https://raw.githubusercontent.com/antibrand/plugin/master/cover.jpg)
-
-## Nothing Fancy
-
-No scripts or stylesheets enqueued. No settings or admin pages. Just some basic infrustructure to be renamed then developed further.
+![cover image](https://raw.githubusercontent.com/antibrand/reference/master/cover.jpg)
 
 ## Compatibility
 

@@ -1,10 +1,10 @@
 <?php
 /**
- * Plugin deactivation class.
+ * Reference deactivation class.
  *
  * This file must not be namespaced.
  *
- * @package    Plugin
+ * @package    Reference
  * @subpackage Includes
  *
  * @since      1.0.0
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /**
- * Plugin deactivation class.
+ * Reference deactivation class.
  *
  * @since  1.0.0
  * @access public
@@ -78,7 +78,7 @@ class Antibrand_Deactivate {
  * @access public
  * @return object Returns an instance of the class.
  */
-function abp_deactivate() {
+function abref_deactivate() {
 
 	return Antibrand_Deactivate::instance();
 
